@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <h1>To do list</h1>
+    </div>
+    <div class="desc">
+        <p>press add after adding items</p><br>
+        <p>To remove press "X" in the list</p><br>
+        <p>Click the item to mark it as complete</p>
+    </div>
+
+    <div class="row">
+        <div class="input">
+            <input id="userInput" type="text" placeholder="Item name.." maxlength="25">
+            <button id="enter">Add </button>
+        </div>
+    </div>
+    <!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+        </div>
+        <script type="text/javascript" src="index.js"></script>  
+</body>
+</html>
